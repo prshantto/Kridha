@@ -11,7 +11,7 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
 
   return (
     <div
-      className={`absolute left-0 top-0 bg-gray-300 w-[70%] h-full transform transition-transform duration-200 ease-in-out translate-x-0 z-50 ${
+      className={`absolute bg-secondary left-0 top-0 w-[70%] h-full transform transition-transform duration-200 ease-in-out translate-x-0 z-50 ${
         showMenu ? "animate-slidein" : "animate-slideout"
       }`}
     >
@@ -32,7 +32,7 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
         <NavLink
           to="/"
           className={({ isActive }) =>
-            isActive ? "underline " : "text-black hover:underline"
+            isActive ? "underline " : " hover:underline"
           }
         >
           Home
@@ -41,7 +41,7 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
         <NavLink
           to="/collections"
           className={({ isActive }) =>
-            isActive ? "underline " : "text-black hover:underline"
+            isActive ? "underline " : " hover:underline"
           }
         >
           Collections
@@ -49,7 +49,7 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
         <NavLink
           to="/all-products"
           className={({ isActive }) =>
-            isActive ? "underline " : "text-black hover:underline"
+            isActive ? "underline " : " hover:underline"
           }
         >
           All Products
@@ -57,7 +57,7 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
         <NavLink
           to="/track-order"
           className={({ isActive }) =>
-            isActive ? "underline " : "text-black hover:underline"
+            isActive ? "underline " : " hover:underline"
           }
         >
           Track Order
@@ -65,7 +65,7 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
         <NavLink
           to="/our-policies"
           className={({ isActive }) =>
-            isActive ? "underline " : "text-black hover:underline"
+            isActive ? "underline " : " hover:underline"
           }
         >
           Our Policies
@@ -73,7 +73,7 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
         <NavLink
           to="/about-us"
           className={({ isActive }) =>
-            isActive ? "underline " : "text-black hover:underline"
+            isActive ? "underline " : " hover:underline"
           }
         >
           About Us
@@ -81,7 +81,7 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
         <NavLink
           to="/contact-us"
           className={({ isActive }) =>
-            isActive ? "underline " : "text-black hover:underline"
+            isActive ? "underline " : " hover:underline"
           }
         >
           Contact Us

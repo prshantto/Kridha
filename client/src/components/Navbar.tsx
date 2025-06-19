@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-gray-200 min-h-16 py-2 flex justify-center items-center gap-8 md:gap-20 cursor-pointer">
+      <div className="bg-secondary min-h-16 py-2 flex justify-center items-center gap-8 md:gap-20 cursor-pointer">
         <CiMenuBurger
           onClick={() => setShowMenu(!showMenu)}
           className="md:hidden text-2xl cursor-pointer transform transition-transform duration-200 ease-in-out translate-x-0"
@@ -49,7 +49,7 @@ const Navbar = () => {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "underline " : "text-black hover:underline"
+              isActive ? "underline " : " hover:underline"
             }
           >
             Home
@@ -58,7 +58,7 @@ const Navbar = () => {
           <NavLink
             to="/collections"
             className={({ isActive }) =>
-              isActive ? "underline " : "text-black hover:underline"
+              isActive ? "underline " : " hover:underline"
             }
           >
             Collections
@@ -66,7 +66,7 @@ const Navbar = () => {
           <NavLink
             to="/all-products"
             className={({ isActive }) =>
-              isActive ? "underline " : "text-black hover:underline"
+              isActive ? "underline " : " hover:underline"
             }
           >
             All Products
@@ -74,7 +74,7 @@ const Navbar = () => {
           <NavLink
             to="/track-order"
             className={({ isActive }) =>
-              isActive ? "underline " : "text-black hover:underline"
+              isActive ? "underline " : " hover:underline"
             }
           >
             Track Order
@@ -82,7 +82,7 @@ const Navbar = () => {
           <NavLink
             to="/our-policies"
             className={({ isActive }) =>
-              isActive ? "underline " : "text-black hover:underline"
+              isActive ? "underline " : " hover:underline"
             }
           >
             Our Policies
@@ -90,7 +90,7 @@ const Navbar = () => {
           <NavLink
             to="/about-us"
             className={({ isActive }) =>
-              isActive ? "underline " : "text-black hover:underline"
+              isActive ? "underline " : " hover:underline"
             }
           >
             About Us
@@ -98,7 +98,7 @@ const Navbar = () => {
           <NavLink
             to="/contact-us"
             className={({ isActive }) =>
-              isActive ? "underline " : "text-black hover:underline"
+              isActive ? "underline " : " hover:underline"
             }
           >
             Contact Us

@@ -4,3 +4,6 @@
     font-family: "Great Vibes", cursive;
   }
 }
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake, synthwave, aqua;
+}
