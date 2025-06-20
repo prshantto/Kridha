@@ -11,7 +11,7 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
 
   return (
     <div
-      className={`absolute bg-secondary left-0 top-0 w-[70%] h-full transform transition-transform duration-200 ease-in-out translate-x-0 z-50 ${
+      className={`fixed bg-white left-0 top-0 w-[70%] h-full transform transition-transform duration-200 ease-in-out translate-x-0 z-50 ${
         showMenu ? "animate-slidein" : "animate-slideout"
       }`}
     >
@@ -88,9 +88,13 @@ const Sidebar = ({ showMenu, setShowMenu }: SidebarProps) => {
         </NavLink>
       </div>
 
-      <div className="h-[10%] text-xs text-center font-bold text-gray-600 p-3">
-        <p>© 2025 Kridha Store | All rights reserved</p>
-        <p>Made with ❤️ in India</p>
+      <div className="h-[10%] w-full text-center text-lg ">
+        <NavLink
+          to="/signin"
+          className="hover:underline border border-black px-4 py-2 rounded-full"
+        >
+          Sign In
+        </NavLink>
       </div>
     </div>
   );

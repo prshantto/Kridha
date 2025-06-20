@@ -17,6 +17,7 @@ import TrackOrder from "./pages/TrackOrder";
 import Collections from "./pages/Collections";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -40,6 +41,10 @@ function App() {
         <Route path="/logout" element={<Logout />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
+
+      <div className="h-[1px] w-full bg-gray-500 mt-8" />
+
+      <Footer />
     </>
   );
 }

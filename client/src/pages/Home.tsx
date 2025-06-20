@@ -108,17 +108,17 @@ const Home = () => {
         />
 
         {/* Black tint overlay */}
-        <div className="absolute inset-0 bg-black/70 md:bg-black/50" />
+        <div className="absolute inset-0 bg-black/60 md:bg-black/50" />
         {/* Centered Text */}
 
         <div className="absolute flex flex-col gap-2 md:gap-5 justify-center text-center items-center right-0 top-0 h-full w-full md:w-1/2">
-          <span className="text-2xl md:text-6xl  text-white">
+          <span className="hidden md:block text-2xl md:text-6xl text-white">
             Welcome to the <h1 className="my-1">Kridha Craft Store</h1>
           </span>
 
-          <h2 className="text-xs md:text-2xl text-white ">
+          <h1 className="text-lg md:text-2xl text-white ">
             Handmade with love ❤️
-          </h2>
+          </h1>
           <button
             onClick={() => navigate("/all-products")}
             className=" text-xs md:text-sm font-bold text-white flex gap-1 items-center justify-center border border-white rounded-full py-2 px-3 md:py-2 md:px-4 cursor-pointer"
@@ -129,12 +129,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="categories h-full">
-        <h2 className="text-2xl font-semibold text-black my-6 mx-16">
+      <div className="categories h-full flex flex-col items-center justify-center">
+        <h2 className="text-2xl w-[80%] font-semibold text-black my-6 md:px-6">
           Categories
         </h2>
 
-        <div className="text-black grid grid-cols-2 md:grid-cols-5 gap-4 mx-6">
+        <div className="text-black  md:w-[80%] grid grid-cols-2 md:grid-cols-5 gap-4 mx-6">
           {Object.entries(Categories).map((category) => {
             return (
               <div
@@ -145,7 +145,7 @@ const Home = () => {
                 <img
                   src={category[1].image}
                   alt={category[0]}
-                  className="w-40 h-40 object-cover"
+                  className="w-40 h-40 object-cover rounded-lg"
                 />
                 <h2 className="text-sm md:text-lg font-semibold flex items-center gap-2">
                   {category[1].name}

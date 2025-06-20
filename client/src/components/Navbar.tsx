@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-secondary min-h-16 py-2 flex justify-center items-center gap-8 md:gap-20 cursor-pointer">
+      <div className="sticky top-0 z-50 bg-white min-h-16 py-2 flex justify-center items-center gap-8 md:gap-20 cursor-pointer">
         <CiMenuBurger
           onClick={() => setShowMenu(!showMenu)}
           className="md:hidden text-2xl cursor-pointer transform transition-transform duration-200 ease-in-out translate-x-0"
