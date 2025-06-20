@@ -14,7 +14,7 @@ const ContactInformation = () => {
         <p>
           <strong>Phone number:</strong>{" "}
           <a href="tel:+91 76782 67785" className="text-pink-600 underline">
-            9140610423
+            76782 67785
           </a>
         </p>
         <p>

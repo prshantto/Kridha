@@ -55,8 +55,8 @@ const OurPolicies = () => {
           <p className="text-gray-700">
             For any questions or concerns related to your data, please reach out
             to us at{" "}
-            <a href="tel:+919140610423" className="text-blue-600 underline">
-              +91 9140610423
+            <a href="tel:+9176782 67785" className="text-blue-600 underline">
+              +91 76782 67785
             </a>
             .
           </p>
