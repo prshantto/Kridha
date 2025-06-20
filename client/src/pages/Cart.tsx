@@ -14,17 +14,19 @@ interface CartItem {
 const initialCart: CartItem[] = [
   {
     id: 1,
-    name: "Crystal Pendant",
+    name: "Pendant",
     price: 299,
     quantity: 1,
-    image: "https://via.placeholder.com/150",
+    image:
+      "https://www.boldpetals.in/cdn/shop/collections/FullSizeRender.jpg?v=1745181260&width=535",
   },
   {
     id: 2,
     name: "Floral Bracelet",
     price: 199,
     quantity: 2,
-    image: "https://via.placeholder.com/150",
+    image:
+      "https://www.boldpetals.in/cdn/shop/collections/IMG-0310.jpg?v=1745181573&width=535",
   },
 ];
 
