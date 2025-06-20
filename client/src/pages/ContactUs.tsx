@@ -88,7 +88,7 @@ const ContactUs = () => {
                   message: "Enter a valid 10-digit phone number",
                 },
               })}
-              placeholder="9876543210"
+              placeholder="9999999999"
               className={`w-full border ${
                 errors.phone ? "border-red-500" : "border-gray-300"
               } rounded-xl px-4 py-3 text-gray-800 focus:outline-none focus:ring-2 focus:ring-pink-300`}
