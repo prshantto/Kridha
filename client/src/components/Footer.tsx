@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
-      <div className="text-sm text-gray-500 text-center my-5">
+      <div className="text-[8px] md:text-sm text-gray-500 text-center my-5">
         © {new Date().getFullYear()}, Kridha Craft Store ·{" "}
         <NavLink to="/our-policies" className="underline hover:text-pink-600">
           Privacy Policy
