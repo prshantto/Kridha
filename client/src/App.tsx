@@ -15,6 +15,7 @@ import Checkout from "./pages/Checkout";
 import OurPolicies from "./pages/OurPolicies";
 import TrackOrder from "./pages/TrackOrder";
 import Collections from "./pages/Collections";
+import ContactInformation from "./pages/ContactInformation";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -31,10 +32,11 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/check-out" element={<Checkout />} />
+        <Route path="/checkout" element={<Checkout />} />
         <Route path="/our-policies" element={<OurPolicies />} />
         <Route path="/track-order" element={<TrackOrder />} />
         <Route path="/collections" element={<Collections />} />
+        <Route path="/contact-information" element={<ContactInformation />} />
 
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
@@ -42,7 +44,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
       </Routes>
 
-      <div className="h-[1px] w-full bg-gray-500 mt-8" />
+      <div className="h-[1px] w-full bg-gray-500" />
 
       <Footer />
     </>

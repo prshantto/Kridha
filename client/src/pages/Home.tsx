@@ -131,10 +131,10 @@ const Home = () => {
 
       <div className="categories h-full flex flex-col items-center justify-center">
         <h2 className="text-2xl w-[80%] font-semibold text-black my-6 md:px-6">
-          Categories
+          Explore Our Categories
         </h2>
 
-        <div className="text-black  md:w-[80%] grid grid-cols-2 md:grid-cols-5 gap-4 mx-6">
+        <div className="text-black  md:w-[80%] grid grid-cols-2 md:grid-cols-5 gap-4 mb-5 mx-6">
           {Object.entries(Categories).map((category) => {
             return (
               <div
