@@ -64,27 +64,13 @@ const Categories: Category[] = [
   },
   {
     id: 9,
-    name: "Earrings",
-    slug: "earrings",
+    name: "Earrings & Jhumka",
+    slug: "earrings & Jhumka",
     image:
       "https://www.boldpetals.in/cdn/shop/collections/earrings.jpg?v=1745227264&width=535",
   },
   {
     id: 10,
-    name: "Jhumka",
-    slug: "jhumka",
-    image:
-      "https://www.boldpetals.in/cdn/shop/collections/earrings.jpg?v=1745227264&width=535",
-  },
-  {
-    id: 11,
-    name: "Keyrings",
-    slug: "keyrings",
-    image:
-      "https://www.boldpetals.in/cdn/shop/collections/IMG-0311.jpg?v=1745181654&width=535",
-  },
-  {
-    id: 12,
     name: "Rings",
     slug: "rings",
     image:
